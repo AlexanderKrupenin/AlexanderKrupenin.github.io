@@ -1,0 +1,143 @@
+@import "http://fonts.fontstorage.com/import/ruslan.css";
+@import "http://fonts.fontstorage.com/import/beermoney.css";
+@import "http://fonts.fontstorage.com/import/alexander.css";
+@import "http://fonts.fontstorage.com/import/barkentina.css";
+@import "http://fonts.fontstorage.com/import/berniershade.css";
+@import "http://fonts.fontstorage.com/import/ptserif.css";
+@import "http://fonts.fontstorage.com/import/montserratalternates.css";
+@import "http://fonts.fontstorage.com/import/cleanvertising.css";
+@import "http://fonts.fontstorage.com/import/ubuntu.css";
+@import "http://fonts.fontstorage.com/import/casper.css";
+@import "http://fonts.fontstorage.com/import/cousine.css";
+@import url('https://fonts.googleapis.com/css?family=Itim');
+@import url('https://fonts.googleapis.com/css?family=Devonshire');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+.background1{
+    background-image: url(img/back3.jpg), url(img/back3.jpg);
+    background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    width: 100%;
+    height: 50%;
+}
+
+.background2{
+    background-image: url(img/back7.jpg), url(img/back7.jpg);
+    background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    width: 100%;
+    height: 45%;
+}
+
+.ifno_about_me{
+    position: absolute;
+    font-family:Comfortaa;
+    font-weight: none;
+    text-align: none;
+    text-decoration: none;
+    font-size: 22px;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+    padding: 10px;
+    background-color: rgb(221, 217, 210);
+    width: 30%;
+    height: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.text{
+    position: absolute;
+    font-family: Comfortaa;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(177, 175, 176);
+    width: 25%;
+    height: 55%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+.text_footer{
+    position: absolute;
+    font-family: Comfortaa;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    word-spacing: 8px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    
+    width: 20%;
+    height: 15%;
+    background: rgb(39, 39, 39);
+    
+}
+
+.blackout{
+    position: absolute;
+    left: 0vw;
+    top: 0px;
+    width: 100%;
+    height: 21%;
+    background: rgb(215, 212, 212);
+    box-shadow: 0 0 0px rgb(0, 0, 0);
+}
+
+.h1{
+    position: absolute;
+    font-family: Comfortaa;
+    font-weight: none;
+    text-align: center;
+    text-decoration: none;
+    left: 35%;
+    top: 1%;
+    font-size: 39px;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+}
+.top_line{
+    position: absolute;
+    left: 0%;
+    height: 0%;
+    background: black;
+    opacity: 0.85;
+    transform: skew(0deg);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Dekko');
+.vxod{
+    position: absolute;
+    font-family: Ubuntu;
+    font-weight: none;
+    text-align: left;
+    text-decoration: none;
+    left: 7.5%;
+    top:10.4%;
+    font-size: 29px;
+    height: 50px;
+    width: 334px;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+    border-color: red;
+    outline: none !important;
+    border: 0 !important;
+}
