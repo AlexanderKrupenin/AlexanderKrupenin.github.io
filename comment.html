@@ -36,10 +36,17 @@
             <label for = "comments">Заметки<br><br></label>
             <input id = "email"><br>
             <label for = "telephone">Откуда узнали о нас<br></label>
-            <input id = "telephone"><br>
+            <label>
+              <input type="radio" name="question" value="yes">
+              Друзья
+            </label>
+            <label><br>
+              <input type="radio" name="question" value="no">
+              Соцсети
+            </label>
             <p><input type = "file" name = "photo" multiple accept = "image/*,image/jpeg"></p>
             <textarea style="background: #ffffff;border: 2px solid #ffffff; width: 305px; height: 80px; box-sizing: border-box; font-size: 14px; resize: none;">
-              </textarea> 
+              </textarea> <br>           
         <p><input type = "submit" class = "button_main" value="          Отправить         "></p>
       </form>
     </main>
