@@ -98,6 +98,23 @@
     
 }
 
+.text_up1{
+    position: absolute;
+    font-family: Comfortaa;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 36px;
+    word-spacing: 8px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    
+    width: 20%;
+    height: 15%;
+    background: rgb(39, 39, 39);
+    
+}
+
 .text_between{
     position: absolute;
     font-family: Comfortaa;
@@ -143,6 +160,14 @@
     height: 0%;
     background: black;
     opacity: 0.85;
+    transform: skew(0deg);
+}
+
+.top_line1{
+    left: 0%;
+    height: 0%;
+    background: rgb(39, 39, 39);
+    
     transform: skew(0deg);
 }
 
