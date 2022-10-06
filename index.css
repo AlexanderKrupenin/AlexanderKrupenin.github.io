@@ -12,6 +12,14 @@
 @import url('https://fonts.googleapis.com/css?family=Itim');
 @import url('https://fonts.googleapis.com/css?family=Devonshire');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+.head_title{
+    width: 1000px;
+    height: 60px;
+    position: fixed;
+    background: #fff;
+    z-index: 1000;
+}
+
 .background1{
     background-image: url(img/back1.jpg), url(img/back1.jpg);
     background-repeat: repeat-y, repeat-y;
@@ -158,8 +166,8 @@
 .top_line{
     left: 0%;
     height: 0%;
-    background: black;
-    opacity: 0.85;
+    background: rgb(39, 39, 39);
+
     transform: skew(0deg);
 }
 

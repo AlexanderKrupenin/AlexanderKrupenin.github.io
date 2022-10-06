@@ -11,15 +11,14 @@
   </head>
   <body>
     <header>
+      <div class = "top_line1 head_title" style="position: fixed; left: 0%;top:0%; width: 100%; height: 20%;"> </div>
+      <h1 class = "text_up1 head_title" style="position: fixed; left: 25%;top:1%; width: 45%;height: 5%;">Отдых на природе</h1>
+      <a href="index.php"><button class = "button_main head_title" style="position: fixed; left: 33%;top:13%; width: 32%;height: 5%;">Вернуться на главную страницу</button></a>
     </header>
     <main> 
-      <div class = "background1" style = "position: absolute; left: 0%;top:0%; height: 110%;"></div>
+      <div class = "background1" style = "position: absolute; left: 0%; top:20%; height: 110%;"></div>
       <div class = "blackout" style = "position: absolute; left: 30%;top:30%;"></div>
       <div class = "container">
-
-        <div class = "top_line1" style="position: absolute; left: 0%;top:0%; width: 100%; height: 20%;"> </div>
-        <h1 class = "text_up1" style="left: 25%;top:1%; width: 45%;height: 5%;">Отдых на природе</h1>
-        <a href="index.html"><button class = "button_main" style="position: absolute; left: 35%;top:15%; width: 32%;height: 5%;">Вернуться на главную страницу</button></a>
       <form action = "https://httpbin.org/post" method = "POST" enctype = "multipart/form-data" class = "text" style = "position: absolute; left: 40%;top:35%; width: 45%;">    
             <label for = "last_name">Фамилия <br><br><em></em></label>
             <input id = "last_name"><br>      
