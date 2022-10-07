@@ -1,4 +1,5 @@
 <?php
 echo "Страница сформирована". "<br>";
-echo date(DATE_RFC822);
+echo date('d.m.Y H:i:s');
+
 ?>

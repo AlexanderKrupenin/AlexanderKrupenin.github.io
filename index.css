@@ -13,10 +13,7 @@
 @import url('https://fonts.googleapis.com/css?family=Devonshire');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 .head_title{
-    width: 1000px;
-    height: 60px;
     position: fixed;
-    background: #fff;
     z-index: 1000;
 }
 

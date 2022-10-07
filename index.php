@@ -1,8 +1,9 @@
+<?php include("index3.php");?>
 <!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Nature Life</title>
+    <title><?php echo($index); ?></title>
       <link rel="apple-touch-icon" sizes = "180x180" href = "apple-touch-icon.png">
       <link rel="icon" type = "image/png" sizes="32x32" href = "img/favicon-32x32.png">
       <link rel="icon" type = "image/png" sizes="16x16" href = "img/favicon-32x32.png">
@@ -13,14 +14,35 @@
     <header>
       <div class = "top_line head_title"  style= "position: fixed; left: 0%;top:0%; width: 100%; height: 20%;"> </div>
       <h1 class = "text_up head_title" style= "position: fixed; left: 25%;top:1%; width: 45%;height: 5%;">Отдых на природе</h1>
-      <a href="registr.php"><button class = "button_main head_title" style = "position: fixed; left: 50%;top:12%; width: 15%;height: 5%;">Регистрация</button></a>
-      <a href="comment.php"><button class = "button_main head_title" style = "position: fixed; left: 10%;top:12%; width: 15%;height: 5%;">Отзывы</button></a>
-      <a href="entry.php"><button class = "button_main head_title" style = "position: fixed; left: 30%;top:12%; width: 15%;height: 5%;">Вход</button></a>
-      <a href="error.php"><button class = "button_main head_title" style = "position: fixed; left: 70%;top:12%; width: 15%;height: 5%;">Туры</button></a>
+      <a href="<?php	// начинаем первый PHP скрипт
+      $name='Вторая страница'; // переменная с текстом ссылки
+      $link='registr.php';	// переменная с адресом ссылки
+      $current_page=true;	// переменная, определяющая активность пункта меню
+      echo $link;	// выводим адрес ссылки
+      ?>">><button class = "button_main head_title" style = "position: fixed; left: 50%;top:12%; width: 15%;height: 5%;">Регистрация</button></a>
+
+      <a href=<?php	// начинаем первый PHP скрипт
+      $name='Вторая страница'; // переменная с текстом ссылки
+      $link='comment.php';	// переменная с адресом ссылки
+      $current_page=true;	// переменная, определяющая активность пункта меню
+      echo $link;	// выводим адрес ссылки
+      ?>>><button class = "button_main head_title" style = "position: fixed; left: 10%;top:12%; width: 15%;height: 5%;">Отзывы</button></a>
+
+      <a href=<?php	// начинаем первый PHP скрипт
+      $name='Вторая страница'; // переменная с текстом ссылки
+      $link='entry.php';	// переменная с адресом ссылки
+      $current_page=true;	// переменная, определяющая активность пункта меню
+      echo $link;	// выводим адрес ссылки
+      ?>>><button class = "button_main head_title" style = "position: fixed; left: 30%;top:12%; width: 15%;height: 5%;">Вход</button></a>
+
+      <a href=<?php	// начинаем первый PHP скрипт
+      $link='error.php';	// переменная с адресом ссылки
+      echo $link;	// выводим адрес ссылки
+      ?>><button class = "button_main head_title" style = "position: fixed; left: 70%;top:12%; width: 15%;height: 5%;">Туры</button></a>
     </header>
     <main> 
-      <div class = "background1" style = "position: absolute; left: 0%;top:55%;"></div>
-      <div class = "background2" style = "position: absolute; left: 0%;top:175%;"></div>
+      <div class = "background1" style = "position: absolute; left: 0%;top:55%;"><?php require('index1.php'); ?></div>
+      <div class = "background2" style = "position: absolute; left: 0%;top:175%;"><?php require('index1.php'); ?></div>
       <div class = "background3" style = "position: absolute; left: 0%;top:295%;"></div>
       <div class = "background4" style = "position: absolute; left: 0%;top:415%;"></div>
       <div class = "background5" style = "position: absolute; left: 0%;top:535%;"></div>
@@ -46,6 +68,7 @@
       <div class = "top_line" style = "position: absolute; left: 0%;top:780%; width: 100%; height: 20%;"> </div>
       <div class = "text" style = "position: absolute; left: 35%;top:785%; width: 40%; height: 10%;">Крупенин Александр +7 901 744 15 74</div>
       <div class = "text" style = "position: absolute; left: 1%;top:788%; width: 40%; height: 10%;"><?php require('index1.php'); ?> </div>
+      <div lass = "head_title" style = "position: absolute; left: 65%;top:785%; width: 10%; height: 10%;"><?php require('index2.php'); ?> </div>
     </footer>
   </body>
   </html>
