@@ -1,7 +1,7 @@
 <?php 
-$index = "Nature Life";
-$reg = 'Nature Life registration';
-$com = "Nature Life comment";
-$en = "Nature Life entry";
-$er = "Nature Life error";
+$index = "Крупенин Александр Васильевич";
+$reg = 'Крупенин Александр Васильевич registration';
+$com = "Крупенин Александр Васильевич comment";
+$en = "Крупенин Александр Васильевич entry";
+$er = "Крупенин Александр Васильевич error";
 ?>
